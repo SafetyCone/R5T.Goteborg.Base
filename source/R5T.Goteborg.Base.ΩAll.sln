@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Goteborg.Base", "R5T.Go
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Goteborg.Base.Construction", "R5T.Goteborg.Base.Construction\R5T.Goteborg.Base.Construction.csproj", "{A2AA3D0C-5C74-4FF6-9473-A21B9DFF0F1A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{3D4D3036-DC04-47A5-A417-3B15EEC68D60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{786CACAF-08B4-4229-B3AB-98A7EA395CBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{A2AA3D0C-5C74-4FF6-9473-A21B9DFF0F1A}.Release|x64.Build.0 = Release|Any CPU
 		{A2AA3D0C-5C74-4FF6-9473-A21B9DFF0F1A}.Release|x86.ActiveCfg = Release|Any CPU
 		{A2AA3D0C-5C74-4FF6-9473-A21B9DFF0F1A}.Release|x86.Build.0 = Release|Any CPU
+		{786CACAF-08B4-4229-B3AB-98A7EA395CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786CACAF-08B4-4229-B3AB-98A7EA395CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786CACAF-08B4-4229-B3AB-98A7EA395CBD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{786CACAF-08B4-4229-B3AB-98A7EA395CBD}.Debug|x64.Build.0 = Debug|Any CPU
+		{786CACAF-08B4-4229-B3AB-98A7EA395CBD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{786CACAF-08B4-4229-B3AB-98A7EA395CBD}.Debug|x86.Build.0 = Debug|Any CPU
+		{786CACAF-08B4-4229-B3AB-98A7EA395CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786CACAF-08B4-4229-B3AB-98A7EA395CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{786CACAF-08B4-4229-B3AB-98A7EA395CBD}.Release|x64.ActiveCfg = Release|Any CPU
+		{786CACAF-08B4-4229-B3AB-98A7EA395CBD}.Release|x64.Build.0 = Release|Any CPU
+		{786CACAF-08B4-4229-B3AB-98A7EA395CBD}.Release|x86.ActiveCfg = Release|Any CPU
+		{786CACAF-08B4-4229-B3AB-98A7EA395CBD}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{786CACAF-08B4-4229-B3AB-98A7EA395CBD} = {3D4D3036-DC04-47A5-A417-3B15EEC68D60}
 	EndGlobalSection
 EndGlobal
